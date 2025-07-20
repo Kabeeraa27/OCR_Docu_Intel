@@ -109,6 +109,7 @@ def extract_fields_to_dataframe(result, extraction_date, start_time, end_time):
 
     return pd.DataFrame(data)
 
+
 # ========== Streamlit UI ==========
 st.set_page_config(page_title="Azure Document Intelligence Viewer", layout="wide")
 st.title("📄 Azure AI Document Intelligence (Custom Model)")
