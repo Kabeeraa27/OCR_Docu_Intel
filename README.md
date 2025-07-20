@@ -9,13 +9,9 @@ It’s designed for internal use and integrates with your company’s Azure Cogn
 
 - Upload PDF documents (`.pdf`)
 - Analyze documents using Azure AI Form Recognizer (Custom Model)
-- Extract key business fields like:
-  - Company Name
-  - Directors
-  - Registration Number
-  - Signature Detection
+- Extract key business fields
 - Download results as CSV
-
+- Record the timestamp
 ---
 
 ## 📁 Project Structure
