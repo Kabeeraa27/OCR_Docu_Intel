@@ -32,37 +32,21 @@ OCR_DOCU_INTEL/
 ```
 
 
-
-## 🔐 Setup: Azure Credentials (Internal Use Only)
-
-1. Ask your manager or admin for the file:  
-   `secrets/azure_cred.json`
-
-2. Place it inside a folder named `secrets` at the project root.
-
-3. The file should follow this format:
-
-```json
-{
-  "AZURE_KEY": "<your-key>",
-  "AZURE_ENDPOINT": "https://<region>.api.cognitiveservices.azure.com/",
-  "MODEL_ID": "<your-custom-model-id>"
-}
-```
-
 ## 🛠️ Getting Started
 
 1. Clone the Private Repository
 ```
-git clone https://github.com/your-username/your-private-repo.git
-cd your-private-repo
+git clone https://github.com/Kabeeraa27/OCR_Docu_Intel.git
+cd OCR_Docu_Intel
 ```
 
 2. Create and Activate Virtual Environment
-
+  
 ```
 python -m venv ocr
+```
 
+```
 # On Windows:
 ocr\Scripts\activate
 
@@ -75,8 +59,20 @@ source ocr/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Add Your Azure Credentials
-Place the azure_cred.json file as described above.
+4. Setup: Azure Credentials (Internal Use Only)
+   
+Inside `secrets/azure_cred.json` add the azure credentials
+   - Azure Key
+   - Azure Endpoint
+   - Model ID
+
+```json
+{
+  "AZURE_KEY": "<your-key>",
+  "AZURE_ENDPOINT": "https://<region>.api.cognitiveservices.azure.com/",
+  "MODEL_ID": "<your-custom-model-id>"
+}
+```
 
 5. Run the Streamlit App
 ```
@@ -92,7 +88,7 @@ Once running, it will open in your default browser. You can:
 - Download the results as a CSV
 
 ## 📦 Requirements
-See requirements.txt. Key dependencies:
+requirements.txt
 
 ```
 streamlit
