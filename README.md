@@ -1,4 +1,4 @@
-# 🧠 Azure Document Intelligence Viewer (Streamlit App)
+# 🧠 Azure Document Intelligence App
 
 This Streamlit app allows you to upload PDF documents and extract structured data using **Azure AI Form Recognizer (Custom Model)**.  
 It’s designed for internal use and integrates with your company’s Azure Cognitive Services securely.
