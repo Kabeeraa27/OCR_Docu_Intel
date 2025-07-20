@@ -1,4 +1,3 @@
-secrets/azure_cred.json
 ocr/
 venv/
 __pycache__/
